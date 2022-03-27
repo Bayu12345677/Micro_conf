@@ -1,0 +1,4 @@
+rules:
+    - special: "\\b(break|case|continue|default|go|goto|range|return|class)\\b"
+    - statement: "\\b(else|for|if|switch)\\b"
+    - preproc: "\\b(package|import|const|var|type|struct|func|go|defer|iota)\\b"
